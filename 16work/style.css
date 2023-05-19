@@ -1,0 +1,31 @@
+body {
+   margin: 0;
+   padding: 0;
+   background-color: gray;
+  }
+
+  #header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+   font-size: 24px;
+  }
+  #canvas-container {
+   margin: 0 auto;
+   max-width: 800px;
+   max-height 600px;
+   width: 100%;
+   height: auto;
+   box-sizing: border-box;
+  }
+  canvas {
+   display: block;
+   margin: 50 auto;
+   background-color: #fff;
+   border: 10px solid #333;
+  }
+  @media (max-width: 800px) {
+   #canvas-container {
+   }
+  }
